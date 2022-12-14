@@ -1,1 +1,2 @@
-console.log("Hello Another world in class")
+console.log("Hello world")
+console.log("I Love JavaScript")
