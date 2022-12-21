@@ -1,1 +1,3 @@
-console.log("Hello javaScipt")
+const message = "Hello" ;
+const place = "World" ;
+
