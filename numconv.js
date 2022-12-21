@@ -10,7 +10,7 @@ console.log(parseInt('0xF')) ; // Hexdecinal number
 console.log ("******************** Conveting string to float ******************") ;
 
 console.log(parseFloat('1.25abc')) ;
-console.log(parseFloat(flo1)) ;
+console.log(parseFloat(flot)) ;
 console.log(parseFloat('ABC')) ;
 
 console.log("************** More Conversion Example ********************") ;
@@ -22,5 +22,5 @@ console.log(parseInt(`${1 + 1} `)) ;
 
 console.log("***************** Converting number2 to string **************") ;
 console.log(num1 .toString()) ;
-console.log(flo1.toString()) ;
+console.log(flot.toString()) ;
 console.log((100).toString()) ;
