@@ -1,6 +1,8 @@
-const str - 'THe quick brown fox jump over the lazy dog'
+const str = 'THe quick brown fox jump over the lazy dog'
 
-const world = str.split('') ;
-console.log (word[3]) ;
+const words = str.split('') ;
+console.log (words [3]) ;
 
 const chars = str.split ('') ;
+console.log (chars [8]) ;
+// expected output "k"

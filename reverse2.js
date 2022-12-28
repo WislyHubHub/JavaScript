@@ -1,0 +1,8 @@
+function reversString (value) {
+    const reversedValue = value.split('') .reverse() .join('')
+
+    return reversedValue ;
+
+}
+
+console.log (reverseString ("Hello JavaSctript")) ;
