@@ -2,7 +2,7 @@ class Song {
     contructor() {
         this.title = title; 
         this.author ;
-        this.artist = this.artist ;
+        //this.artist = this.artist ;
 
     }
 
@@ -10,13 +10,14 @@ class Song {
         console.log ("Song playing!") ;
 
     } 
-    stop() {
+    /*stop() {
         console.log ("Stopping") ;
 
-    }
+    }*/
+    
 
 }
 
-const mySong = new Song('Bohemian Rhapsody' , 'Queen') ;
+const mySong = new Song() ;
 mySong.play() ;
 console.log (mySong.title) ;
