@@ -1,4 +1,4 @@
-function cirticalCode () {
+function criticalCode () {
     throw "Throwing an exception" ;
 
 }
@@ -11,7 +11,9 @@ function logError (theException) {
 console.log ("\n************ try.Catch***************\n") ;
 
 try {
-    cirticalCode() ;
+    //criticalCode() ;
+
+    xcriticalCode() ;
 
 } catch (ex) {
     console.log ("Got an error") ;
@@ -33,7 +35,7 @@ try {
 console.log ("\n************ Try..Catch..Finally***************\n") ;
 
 try {
-    cirticalCode() ;
+    criticalCode() ;
 
 }catch(ex) {
     console.log ("Got an error") ;
