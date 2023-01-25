@@ -1,6 +1,12 @@
-function getBudgets (budget) {
-    return budget.map (index => Object.values(index) [2]) 
-    . reduce ((accumulator , currentValue) => accumulator + currentValue) ;
+function getBudgets (arr) {
+
+    let sum = 0 ;
+    
+    for (let i = 0 ; i < arr.length ; i++ ) {
+        return sum += arr[i].budget ;
+        
+
+    }
 
 }
 
