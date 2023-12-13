@@ -19,3 +19,13 @@ let newArr = arr1.concat (arr2) ;
 let newArr2 = arr2.concat (1,2,3) ;
 console.log (newArr) ;
 console.log (newArr2) ;
+
+
+// push = come in last length
+// pop = pickup last length
+// unshift = come in fisrt length
+// shift = pickup first length
+
+// concat tor array Ex ['1' ,'2' ,'3'] and ['4' ,'5','6'] = 
+
+//concat === ['1','2','3','4','5','6'] 

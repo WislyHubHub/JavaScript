@@ -14,13 +14,18 @@
         <p id="demo"> </p>
 
         <script>
-            var txt = "" ;
+            var txt = "member" ;
             var numbers = [45 , 4 ,8 ,19 ,25] ;
             numbers.forEach(myFunction) ;
             document.getElementById("demo").innerHTML = txt ;
 
-            function myFunction (value) {
-                txt = txt + value + "<br>" ;
+            function myFunction (value ,index) {
+                
+                for (index = 0; i < number.length ;index++) {
+                    number[index] = txt + value + "<br>" ;
+        
+                }
+        
 
             }
             
