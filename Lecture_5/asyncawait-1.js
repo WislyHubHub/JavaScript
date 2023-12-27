@@ -1,5 +1,5 @@
 function promiseTimeout (ms) {
-    console.log ('Do something') ;
+    console.log ('What you do something wrong') ;
     return new Promise ((resolve , reject) => {
         setTimeout (resolve , ms) ;
 
@@ -15,7 +15,7 @@ async function run () { // funtion async tong me async kang nha
     console.log ("Stop!!!") ;
 
 }
-
-console.log ("Before") ;
+console.log("Start");
+console.log ("begin") ;
 run() ;
-console.log ("After") ;
+console.log ("end") ;

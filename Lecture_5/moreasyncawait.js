@@ -33,7 +33,7 @@ function where () {
 
 async function Message() {
     const a = await who() ;
-    const b = await what () ;
+    const b = what () ;
     const c = await where () ;
     console.log (`${a} ${b} ${c}`) ;
 
